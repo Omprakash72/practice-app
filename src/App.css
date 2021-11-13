@@ -1,5 +1,26 @@
-.App {
+
+.Feedback {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  transition: all 1.5s;
+}
+.mode {
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 2px var(--text-primary) solid;
+  float:right;
+  transition: all .5s;
+}
+
+
+/* .App {
   text-align: center;
+  background-color:#057594;
+  color:#fff;
 }
 
 .App-logo {
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
